@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="shorcut icon" href="https://cdn.tgdd.vn/Files/2019/08/28/1192639/top-5-website-xem-chi-so-tia-uv-va-thoi-tiet-5.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <title>Wheater-App</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main-section">
+            <div class="search-header">
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" name="search-city" class="search-input" placeholder="Tìm kiếm thành phố...">
+                </div>
+            </div>
+            <div class="body-weather">
+                <h1 class="city-name">Hồ Chí Minh</h1>
+                <p class="city-status">Mây thưa</p>
+                <div class="img-city">
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="img-weather">
+                </div>
+                <h3 class="temperature">26</h3>
+            </div>
+        </div>
+        <div class="addition-section">
+            <div class="row">
+                <div class="item">
+                    <div class="label">MT Mọc</div>
+                    <div class="value sunrise">6:16</div>
+                </div>
+                <div class="item">
+                    <div class="label">MT Lặn</div>
+                    <div class="value sunset">17:00</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="label">Độ ẩm</div>
+                    <div class="value"><span class="humidity">73%</span></div>
+                </div>
+                <div class="item">
+                    <div class="label">Gió</div>
+                    <div class="value"><span class="wind">54.5 km/h</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./moment.js"></script>
+</body>
+
+</html>
